@@ -221,3 +221,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# AEGIS-MD data artefacts (regenerate with the notebooks; too large for git)
+*.pkl
+*.npy
+records_*.pkl
+bulk_*.pkl
+/kaggle/
+run*/

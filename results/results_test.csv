@@ -1,0 +1,27 @@
+method,family,reports_read,AUPRC,AUPRC_lo,AUPRC_hi,AUROC,Brier,events_detected,median_lead_months
+Poisson exceedance,routine,0.0,0.137,0.084,0.217,0.574,0.172,0.382,5.0
+Poisson CUSUM,routine,0.0,0.136,0.082,0.217,0.545,0.131,0.273,6.0
+Mann-Kendall trend,routine,0.0,0.132,0.08,0.231,0.58,0.267,0.218,5.0
+Isolation Forest,routine,0.0,0.118,0.076,0.203,0.505,0.131,0.291,4.5
+GBM (routine features),supervised,0.0,0.146,0.093,0.217,0.602,0.093,0.327,5.0
+GBM (routine + full reading),supervised,107.85,0.183,0.109,0.285,0.663,0.093,0.418,6.0
+Fusion (routine evidence only),fusion,0.0,0.133,0.081,0.228,0.538,0.09,0.364,5.0
+Fusion + random reading (k=10),fusion+reading,9.69,0.142,0.086,0.249,0.607,0.089,0.309,5.0
+Fusion + random reading (k=20),fusion+reading,18.54,0.139,0.083,0.226,0.617,0.089,0.327,6.0
+Fusion + random reading (k=40),fusion+reading,34.19,0.176,0.095,0.287,0.636,0.088,0.309,6.0
+Fusion + generic-query RAG (k=10),fusion+reading,9.69,0.153,0.081,0.247,0.582,0.089,0.309,5.0
+Fusion + generic-query RAG (k=20),fusion+reading,18.54,0.17,0.091,0.278,0.635,0.088,0.345,6.0
+Fusion + generic-query RAG (k=40),fusion+reading,34.19,0.153,0.089,0.245,0.641,0.089,0.327,6.0
+Fusion + full reading,fusion+reading,107.85,0.177,0.103,0.276,0.66,0.088,0.327,6.0
+"AEGIS gap retrieval (VoI, decision-risk)",AEGIS,25.56,0.117,0.075,0.191,0.543,0.09,0.4,5.0
+"AEGIS gap retrieval (VoI, information)",AEGIS,14.46,0.129,0.079,0.208,0.536,,0.327,5.0
+AEGIS all four gaps,AEGIS,54.72,0.121,0.073,0.199,0.546,0.09,0.4,6.0
+AEGIS VoI-gated full reading,AEGIS,107.84,0.14,0.094,0.216,0.608,0.091,0.255,6.0
+Ablation: gap retrieval without contrast,ablation,24.34,0.121,0.072,0.21,0.534,0.09,0.364,6.0
+Ablation: no query-rate statistic,ablation,54.72,0.153,0.091,0.256,0.599,0.089,0.436,6.0
+Ablation: no reliability discounting,ablation,54.72,0.121,0.073,0.197,0.546,0.091,0.418,6.0
+Ablation: no contradictory evidence,ablation,54.72,0.119,0.072,0.197,0.54,0.091,0.382,6.0
+Ablation: without mechanism evidence,ablation,54.72,0.122,0.07,0.209,0.533,0.09,0.364,5.5
+Ablation: without investigation evidence,ablation,54.72,0.129,0.076,0.21,0.562,0.09,0.436,6.0
+Ablation: without batch evidence,ablation,54.72,0.114,0.075,0.177,0.543,0.09,0.418,5.0
+Ablation: without precedent evidence,ablation,54.72,0.123,0.074,0.204,0.547,0.09,0.4,6.0

@@ -1,0 +1,10 @@
+# Kaggle's default Python image already provides all of these.
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+requests
+torch                  # notebooks 2 and 5 (GPU)
+sentence-transformers  # bge-small embeddings + NLI cross-encoder
+transformers           # Qwen2.5 explanations (notebook 5)
