@@ -1,0 +1,41 @@
+method,decile,mean_pred,obs
+Fusion + full reading,0,0.0147,0.0373
+Fusion + full reading,1,0.0251,0.0415
+Fusion + full reading,2,0.0330,0.0625
+Fusion + full reading,3,0.0412,0.0332
+Fusion + full reading,4,0.0494,0.0913
+Fusion + full reading,5,0.0580,0.1250
+Fusion + full reading,6,0.0685,0.1452
+Fusion + full reading,7,0.0819,0.1167
+Fusion + full reading,8,0.1025,0.1411
+Fusion + full reading,9,0.1455,0.1950
+"Fusion, count evidence only",0,0.0428,0.0788
+"Fusion, count evidence only",1,0.0502,0.0996
+"Fusion, count evidence only",2,0.0542,0.1000
+"Fusion, count evidence only",3,0.0575,0.0788
+"Fusion, count evidence only",4,0.0609,0.1079
+"Fusion, count evidence only",5,0.0646,0.0750
+"Fusion, count evidence only",6,0.0685,0.0913
+"Fusion, count evidence only",7,0.0740,0.1167
+"Fusion, count evidence only",8,0.0834,0.1120
+"Fusion, count evidence only",9,0.1024,0.1286
+Recall history (logistic regression),0,0.0229,0.0622
+Recall history (logistic regression),1,0.0254,0.0207
+Recall history (logistic regression),2,0.0271,0.1125
+Recall history (logistic regression),3,0.0283,0.0539
+Recall history (logistic regression),4,0.0296,0.0913
+Recall history (logistic regression),5,0.0464,0.1292
+Recall history (logistic regression),6,0.0716,0.0747
+Recall history (logistic regression),7,0.0912,0.0083
+Recall history (logistic regression),8,0.1128,0.1328
+Recall history (logistic regression),9,0.1626,0.3029
+"GBM, count + full-reading narrative features",0,0.0002,0.0290
+"GBM, count + full-reading narrative features",1,0.0006,0.0456
+"GBM, count + full-reading narrative features",2,0.0012,0.0750
+"GBM, count + full-reading narrative features",3,0.0019,0.0830
+"GBM, count + full-reading narrative features",4,0.0030,0.0747
+"GBM, count + full-reading narrative features",5,0.0046,0.1083
+"GBM, count + full-reading narrative features",6,0.0076,0.0581
+"GBM, count + full-reading narrative features",7,0.0143,0.1125
+"GBM, count + full-reading narrative features",8,0.0330,0.1950
+"GBM, count + full-reading narrative features",9,0.1860,0.2075

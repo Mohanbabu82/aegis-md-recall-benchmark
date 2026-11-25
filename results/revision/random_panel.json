@@ -1,0 +1,189 @@
+{
+ "paragraph": "On the random panel (110 codes, 179,830 reports, test prevalence 0.027, 22 recall events), all methods scored lower. Narrative evidence again improved on count evidence (AUPRC 0.034 vs 0.022; difference 0.013, 0.001 to 0.030; AUROC 0.59 vs 0.43) but did not beat PRR (AUPRC 0.039) or recall history (0.125; AUROC 0.81). Generic retrieval was worse than full reading, and AEGIS did not improve on generic retrieval (Supplementary Table S6).",
+ "abstract": "In 110 randomly sampled codes (prevalence 0.027) the ordering held; recall history remained strongest (AUPRC 0.13).",
+ "widths": [
+  3500,
+  1000,
+  2000,
+  1500,
+  1000
+ ],
+ "rows": [
+  [
+   "Method",
+   "Reports read",
+   "AUPRC (95% CI)",
+   "AUROC",
+   "Events detected"
+  ],
+  [
+   "Poisson CUSUM",
+   "0",
+   "0.053 (0.028–0.095)",
+   "0.686",
+   "0.33"
+  ],
+  [
+   "PRR (max lower 95% bound)",
+   "0",
+   "0.039 (0.023–0.064)",
+   "0.677",
+   "0.19"
+  ],
+  [
+   "ROR (max lower 95% bound)",
+   "0",
+   "0.038 (0.023–0.063)",
+   "0.671",
+   "0.10"
+  ],
+  [
+   "EBGM (gamma-Poisson shrinker)",
+   "0",
+   "0.025 (0.014–0.042)",
+   "0.485",
+   "0.14"
+  ],
+  [
+   "Recall history (logistic regression)",
+   "0",
+   "0.125 (0.044–0.224)",
+   "0.809",
+   "0.57"
+  ],
+  [
+   "GBM, count features",
+   "0",
+   "0.047 (0.027–0.075)",
+   "0.667",
+   "0.38"
+  ],
+  [
+   "GBM, count + recall history + narrative features",
+   "33",
+   "0.094 (0.046–0.155)",
+   "0.745",
+   "0.38"
+  ],
+  [
+   "Text model (embeddings + LR)",
+   "33",
+   "0.063 (0.021–0.159)",
+   "0.653",
+   "0.29"
+  ],
+  [
+   "Fusion, count evidence only",
+   "0",
+   "0.022 (0.012–0.035)",
+   "0.428",
+   "0.10"
+  ],
+  [
+   "Fusion + full reading",
+   "33",
+   "0.034 (0.018–0.057)",
+   "0.590",
+   "0.29"
+  ],
+  [
+   "Fusion + full reading, initial reports only",
+   "14",
+   "0.040 (0.020–0.068)",
+   "0.606",
+   "0.38"
+  ],
+  [
+   "Fusion + generic retrieval (k = 20)",
+   "12",
+   "0.024 (0.014–0.038)",
+   "0.481",
+   "0.14"
+  ],
+  [
+   "Fusion + random reading (k = 20, 3 draws)",
+   "12",
+   "0.029 ± 0.002 (SD)",
+   "0.546",
+   "–"
+  ],
+  [
+   "AEGIS gap retrieval (VoI, decision risk)",
+   "2",
+   "0.022 (0.012–0.036)",
+   "0.425",
+   "0.10"
+  ],
+  [
+   "AEGIS, all four gaps",
+   "35",
+   "0.030 (0.017–0.049)",
+   "0.559",
+   "0.14"
+  ],
+  [
+   "AEGIS adaptive investigation (gated)",
+   "2",
+   "0.022 (0.011–0.035)",
+   "0.420",
+   "0.10"
+  ],
+  [
+   "Paired differences (product-code cluster bootstrap)",
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "H1: full reading − count evidence (fusion)",
+   "",
+   "0.013 (0.001 to 0.030)",
+   "0.162 (0.009 to 0.315)",
+   ""
+  ],
+  [
+   "Full reading − PRR",
+   "",
+   "−0.005 (−0.021 to 0.012)",
+   "−0.087 (−0.200 to 0.015)",
+   ""
+  ],
+  [
+   "Full reading − recall history",
+   "",
+   "−0.090 (−0.200 to −0.009)",
+   "−0.219 (−0.396 to −0.032)",
+   ""
+  ],
+  [
+   "H2: generic k = 20 − full reading",
+   "",
+   "−0.010 (−0.024 to −0.002)",
+   "−0.109 (−0.204 to −0.009)",
+   ""
+  ],
+  [
+   "H3: AEGIS (VoI) − generic k = 20",
+   "",
+   "−0.002 (−0.009 to 0.003)",
+   "−0.056 (−0.167 to 0.039)",
+   ""
+  ],
+  [
+   "Δ full reading − count, 3-month horizon",
+   "",
+   "0.019 (0.003 to 0.037)",
+   "",
+   ""
+  ],
+  [
+   "Δ full reading − count, 12-month horizon",
+   "",
+   "0.032 (0.006 to 0.076)",
+   "",
+   ""
+  ]
+ ],
+ "note": "110 of 900 randomly drawn product codes met the eligibility rule (≥24 reports received in 2014–2015); 20 had a Class I recall. 179,830 sampled reports (up to 30 per code-month). Test period July 2022–June 2025: 3,858 cases, 103 positive (prevalence 0.027), 22 recall events. Events detected: share of the 21 evaluable test-period recall events with at least one alert in the 6 months before initiation, at the threshold set on the validation period as in the main analysis. Leave-one-code-out ΔAUPRC (full reading − count evidence) ranged from 0.008 to 0.015. Bootstrap: 1,000 resamples."
+}
