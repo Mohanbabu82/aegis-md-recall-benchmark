@@ -1,0 +1,77 @@
+code,group,device_name,maude_reports_2014_2025,sampled_records,cases_train,cases_val,cases_test,class_I_events_2016_2025
+HAW,pos,Neurological Stereotaxic Instrument,37190,8640,42,10,12,12
+MCW,pos,"Catheter, Peripheral, Atherectomy",6437,6203,60,11,30,3
+OAE,pos,"Catheter, Percutaneous, Cardiac Ablation, For Treatment Of Atrial Fibrillation",10555,6775,60,18,30,2
+NWB,pos,"Endoscope, Accessories, Narrow Band Spectrum",11925,4231,60,18,30,1
+QAN,pos,"Stent, Iliac Vein",1194,1147,60,12,36,1
+IRT,pos,"Pad, Heating, Powered",2452,2386,60,18,30,1
+EZL,pos,"Catheter, Retention Type, Balloon",8280,6696,60,18,29,2
+BSZ,pos,"Gas-Machine, Anesthesia",41077,7692,38,11,9,15
+LWJ,pos,"Prosthesis, Hip, Semi-Constrained, Metal/Polymer, Uncemented",2416,2348,54,18,36,1
+FMF,pos,"Syringe, Piston",43896,7626,60,18,24,4
+KFM,pos,"Pump, Blood, Cardiopulmonary Bypass, Non-Roller Type",3480,3405,54,18,36,1
+FSM,pos,"Tray, Surgical, Instrument",1851,1824,60,18,30,1
+LYJ,pos,"Stimulator, Autonomic Nerve, Implanted For Epilepsy",26086,8640,54,18,36,1
+FOS,pos,"Catheter, Umbilical Artery",810,810,60,12,36,1
+QJR,pos,"Reagents, 2019-Novel Coronavirus Nucleic Acid",20129,3438,60,4,33,3
+FRO,pos,"Dressing, Wound, Drug",2248,2204,60,18,30,1
+JKA,pos,"Tubes, Vials, Systems, Serum Separators, Blood Collection",44353,6270,54,18,30,2
+KNT,pos,"Tubes, Gastrointestinal (And Accessories)",18597,8629,60,14,25,3
+NPT,pos,"Aortic Valve, Prosthesis, Percutaneously Delivered",69296,8640,46,14,36,3
+LDF,pos,"Electrode, Pacemaker, Temporary",1405,1405,54,18,36,1
+MIH,pos,"System, Endovascular Graft, Aortic Aneurysm Treatment",45317,8640,42,12,36,5
+FWM,pos,"Prosthesis, Breast, Inflatable, Internal, Saline",101483,6611,54,18,36,1
+HQL,pos,Intraocular Lens,39162,8640,58,18,32,1
+OLO,pos,Orthopedic Stereotaxic Instrument,18553,7836,60,18,30,1
+MEG,pos,"Syringe, Antistick",2572,2455,60,12,30,2
+KOD,pos,"Catheter, Urological",13020,7161,60,18,30,1
+MNT,pos,"Continuous, Minimal Ventilatory Support, Facility Use Ventilator",43690,8601,48,6,21,8
+QZI,pos,Percutaneous Cardiac Ablation Catheter For Treatment Of Atrial Fibrillation With Irreversible Electroporation,5560,1374,60,18,30,1
+FMI,pos,"Needle, Hypodermic, Single Lumen",35802,7990,60,17,31,1
+LGZ,pos,"Warmer, Thermal, Infusion Fluid",6493,4295,54,6,36,4
+CCW,pos,"Laryngoscope, Rigid",6135,4886,42,18,23,7
+BTO,pos,"Tube, Tracheostomy (W/Wo Connector)",3071,2779,60,18,24,3
+FJK,pos,"Set, Tubing, Blood, With And Without Anti-Regurgitation Valve",4052,3065,60,18,36,1
+HWA,pos,Impactor,17374,7323,54,18,36,1
+NGV,pos,"System, Appendage Closure, Left Atrial",15533,7252,54,18,36,1
+CCK,pos,"Analyzer, Gas, Carbon-Dioxide, Gaseous-Phase",11691,4386,48,18,36,2
+PZE,pos,"Sensor, Glucose, Invasive, Non-Adjunctive, Factory-Calibrated, User-Initiated",114352,5820,60,18,30,1
+BTR,pos,"Tube, Tracheal (W/Wo Connector)",14363,8519,48,16,19,7
+NIE,pos,"Catheter, Hemodialysis, Triple Lumen, Non-Implanted",753,752,60,18,24,2
+BTI,pos,"Compressor, Air, Portable",2951,2594,60,18,30,1
+CBK,pos,"Ventilator, Continuous, Facility Use",168788,8640,23,5,0,37
+NPV,pos,Pulmonary Valve Prosthesis Percutaneously Delivered,1915,1915,60,14,34,1
+OBJ,pos,"Catheter, Ultrasound, Intravascular",6590,5784,60,12,32,2
+DRM,pos,"Compressor, Cardiac, External",8647,7900,60,18,26,2
+CAE,pos,"Airway, Oropharyngeal, Anesthesiology",640,640,60,18,30,1
+MNS,pos,"Ventilator, Continuous, Non-Life-Supporting",7921,3500,60,12,21,5
+EOQ,pos,Bronchoscope (Flexible Or Rigid),23945,5519,60,18,20,4
+KTI,pos,Bronchoscope Accessory,756,756,60,18,36,1
+BTT,pos,"Humidifier, Respiratory Gas, (Direct Patient Interface)",11724,8062,54,18,36,1
+HBL,pos,"Holder, Head, Neurosurgical (Skull Clamp)",4396,3463,54,18,36,1
+NJE,neg,Intracranial Neurovascular Stent,5002,4712,60,18,36,0
+HSD,neg,"Prosthesis, Shoulder, Hemi-, Humeral, Metallic Uncemented",8040,6965,60,18,36,0
+MBF,neg,"Prosthesis, Shoulder, Semi-Constrained, Metal/Polymer, Uncemented",1239,1239,60,18,36,0
+PKL,neg,Hemostatic Metal Clip For The Gi Tract,6620,5298,60,18,36,0
+PIF,neg,Gastrointestinal Tubes With Enteral Specific Connectors,645,645,60,18,36,0
+HGI,neg,"Electrocautery, Gynecologic (And Accessories)",726,726,60,18,36,0
+EZB,neg,"Stylet For Catheter, Gastro-Urology",1211,1211,60,18,36,0
+INK,neg,"Stretcher, Wheeled, Powered",970,966,60,18,36,0
+MSS,neg,"Folders And Injectors, Intraocular Lens (Iol)",3360,3340,60,18,36,0
+PMP,neg,Dorsal Root Ganglion Stimulator For Pain Relief,18579,6743,60,18,36,0
+GEY,neg,"Motor, Surgical Instrument, Ac-Powered",16560,8460,60,18,36,0
+DWE,neg,"Tubing, Pump, Cardiopulmonary Bypass",1558,1504,60,18,36,0
+EZY,neg,"Device, Incontinence, Mechanical/Hydraulic",14643,5251,60,18,36,0
+OYE,neg,Flow Cytometric Reagents And Accessories.,890,890,60,18,36,0
+JDW,neg,"Pin, Fixation, Threaded",1711,1264,60,18,36,0
+KXG,neg,"Applicator, Absorbent Tipped, Sterile",733,733,60,18,36,0
+EQJ,neg,"Bur, Ear, Nose And Throat",2268,2216,60,18,36,0
+FTM,neg,"Mesh, Surgical",6186,4716,60,18,36,0
+CEC,neg,"Radioimmunoassay, Free Thyroxine",1787,1787,60,18,36,0
+MNI,neg,"Orthosis, Spinal Pedicle Fixation",2163,2108,60,18,36,0
+MAI,neg,"Fastener, Fixation, Biodegradable, Soft Tissue",13796,6663,60,18,36,0
+MQR,neg,"Stent, Colonic, Metallic, Expandable",607,607,60,18,36,0
+GXN,neg,"Plate, Cranioplasty, Preformed, Non-Alterable",600,600,60,18,36,0
+BRY,neg,"Cabinet, Table And Tray, Anesthesia",64088,2003,60,18,36,0
+KCY,neg,"Tourniquet, Pneumatic",1476,1330,60,18,36,0
+MJC,neg,"Catheter, Urological (Antimicrobial) And Accessories",15217,6294,60,18,36,0

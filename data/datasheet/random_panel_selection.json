@@ -1,0 +1,14 @@
+{
+ "n_classification_codes": 7103,
+ "n_candidates": 900,
+ "n_eligible": 110,
+ "n_panel": 110,
+ "n_records": 179830,
+ "per_month": 30,
+ "min_pre_reports": 24,
+ "seed": 2026,
+ "panel_codes_with_class_I": 20,
+ "malformed": 0,
+ "bulk_files": 240,
+ "snapshot": "2026-11-20"
+}

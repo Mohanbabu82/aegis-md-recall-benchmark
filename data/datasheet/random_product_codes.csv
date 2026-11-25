@@ -1,0 +1,111 @@
+code,group,device_name,maude_reports_2014_2025,sampled_records,cases_train,cases_val,cases_test,class_I_events_2016_2025
+GDC,random,"Table, Operating-Room, Electrical",1366,1224,60,18,36,0
+HBT,random,"Applier, Hemostatic Clip",284,213,60,18,36,0
+IOR,random,"Wheelchair, Mechanical",12154,1712,60,18,36,0
+KMF,random,"Bandage, Liquid",136,136,60,18,36,0
+JTO,random,"Discs, Strips And Reagents, Microorganism Differentiation",197,197,60,18,36,0
+JQC,random,"Centrifuges (Micro, Ultra, Refrigerated) For Clinical Use",378,378,60,18,36,0
+EQJ,random,"Bur, Ear, Nose And Throat",2268,2089,60,18,36,0
+KMI,random,"Monitor, Bed Patient",728,696,60,18,36,0
+BYX,random,"Tubing, Pressure And Accessories",267,267,60,18,36,0
+HXZ,random,"Cutter, Wire",378,378,60,18,36,0
+EZQ,random,"Pouch, Colostomy",1909,1317,60,18,36,0
+GDG,random,"Hook, Surgical, General & Plastic Surgery",157,157,60,18,36,0
+NAC,random,"Dressing, Wound, Hydrophilic",1212,968,60,18,36,0
+GFG,random,"Bit, Surgical",540,540,60,18,36,0
+GDF,random,"Guide, Needle, Surgical",141,141,60,18,36,0
+EIA,random,"Unit, Operative Dental",1357,1143,60,18,36,0
+LWF,random,"Dilator, Nasal",158,158,60,18,36,0
+CAE,random,"Airway, Oropharyngeal, Anesthesiology",640,640,60,18,30,1
+INP,random,"Tips And Pads, Cane, Crutch And Walker",52,52,60,18,36,0
+KYG,random,"Device, Irrigation, Ocular Surgery",617,604,60,18,36,0
+HXX,random,Screwdriver,18473,4320,60,18,36,0
+DZN,random,"Instruments, Dental Hand",395,395,60,18,36,0
+HNN,random,"Knife, Ophthalmic",6311,3608,60,18,36,0
+DHA,random,"System, Test, Human Chorionic Gonadotropin",1785,1747,60,18,36,0
+MNH,random,"Orthosis, Spondylolisthesis Spinal Fixation",3102,2369,60,18,36,0
+OMP,random,Negative Pressure Wound Therapy Powered Suction Pump,8554,3192,60,18,36,0
+BTO,random,"Tube, Tracheostomy (W/Wo Connector)",3071,2483,60,18,24,3
+DRF,random,"Catheter, Electrode Recording, Or Probe, Electrode Recording",6620,4158,60,18,36,0
+FTM,random,"Mesh, Surgical",6186,3624,60,18,36,0
+HAE,random,"Rongeur, Manual",231,231,60,18,36,0
+IYN,random,"System, Imaging, Pulsed Doppler, Ultrasonic",2181,1853,60,18,36,0
+BTM,random,"Ventilator, Emergency, Manual (Resuscitator)",612,604,54,18,28,4
+GXY,random,"Electrode, Cutaneous",285,285,60,18,36,0
+LWJ,random,"Prosthesis, Hip, Semi-Constrained, Metal/Polymer, Uncemented",2416,2070,54,18,36,1
+FAD,random,"Stent, Ureteral",4565,3218,60,18,36,0
+OSI,random,Bariatric Bed,987,983,60,18,36,0
+MBI,random,"Fastener, Fixation, Nondegradable, Soft Tissue",19947,4307,60,18,36,0
+GKZ,random,"Counter, Differential Cell",11334,2978,48,18,36,2
+JDI,random,"Prosthesis, Hip, Semi-Constrained, Metal/Polymer, Cemented",48423,4320,60,18,36,0
+BTA,random,"Pump, Portable, Aspiration (Manual Or Powered)",534,275,60,18,36,0
+MSD,random,"Catheter, Hemodialysis, Implanted",7168,4220,60,17,31,1
+LXB,random,"Hearing Aid, Bone Conduction",5538,3902,60,18,36,0
+HDD,random,"Table, Obstetrical, Ac-Powered (And Accessories)",333,333,60,18,36,0
+OCC,random,Respiratory Virus Panel Nucleic Acid Assay System,804,276,60,18,36,0
+CAC,random,"Apparatus, Autotransfusion",1031,1021,60,18,30,1
+GDW,random,"Staple, Implantable",136853,4320,48,18,33,3
+EBF,random,"Material, Tooth Shade, Resin",538,530,60,18,36,0
+CAZ,random,Anesthesia Conduction Kit,3203,2616,60,18,36,0
+IZL,random,"System, X-Ray, Mobile",486,486,60,18,36,0
+OVD,random,"Intervertebral Fusion Device With Integrated Fixation, Lumbar",1196,1116,60,18,36,0
+NAY,random,"System, Surgical, Computer Controlled Instrument",94569,4320,60,18,30,1
+HBB,random,"Motor, Drill, Pneumatic",4731,3158,60,18,36,0
+JHX,random,"Fluorometric Method, Cpk Or Isoenzymes",81,81,60,18,36,0
+KWT,random,"Prosthesis, Shoulder, Non-Constrained, Metal/Polymer Cemented",4689,3381,60,18,36,0
+GXN,random,"Plate, Cranioplasty, Preformed, Non-Alterable",600,600,60,18,36,0
+OUB,random,Instrument For Treatment Of Hyperhidrosis,625,625,60,18,36,0
+JSO,random,"Culture Media, Antimicrobial Susceptibility Test, Excluding Mueller Hinton Agar",692,246,60,18,36,0
+JIL,random,"Method, Enzymatic, Glucose (Urinary, Non-Quantitative)",401,401,60,18,36,0
+KRD,random,"Device, Vascular, For Promoting Embolization",12532,4037,60,18,30,1
+EZD,random,"Catheter, Straight",4039,2496,60,18,36,0
+FIE,random,"Needle, Fistula",209,185,60,18,36,0
+KRO,random,"Prosthesis, Knee, Femorotibial, Constrained, Cemented, Metal/Polymer",7962,4100,60,18,36,0
+GBM,random,"Catheter, Urethral",1897,1403,60,18,30,1
+GWM,random,"Device, Monitoring, Intracranial Pressure",5006,3636,60,17,19,3
+KZH,random,"Introducer, Syringe Needle",958,954,60,18,36,0
+NSC,random,"Injector, Pen",356,356,60,18,36,0
+MZF,random,"Test, Hiv Detection",2608,1448,60,18,36,0
+LIX,random,"Aid, Cardiopulmonary Resuscitation",92,82,60,18,36,0
+LXT,random,"Appliance, Fixation, Nail/Blade/Plate Combination, Multiple Component, Metal Composite",417,417,60,18,36,0
+NDJ,random,"Screw, Fixation, Bone, Non-Spinal, Metallic",419,387,60,18,36,0
+MED,random,"Sterilant, Medical Devices",606,606,60,18,36,0
+DRC,random,Trocar,959,943,54,18,36,1
+DSA,random,"Cable, Transducer And Electrode, Patient, (Including Connector)",385,385,60,18,36,0
+DXZ,random,"Patch, Pledget And Intracardiac, Petp, Ptfe, Polypropylene",948,851,60,18,36,1
+EZN,random,"Dilator, Catheter, Ureteral",604,593,60,18,36,0
+JDN,random,"Implant, Fixation Device, Spinal",89,89,60,18,36,0
+FSS,random,"Light, Surgical, Floor Standing",87,87,60,18,36,0
+OXF,random,"Mesh, Surgical, Absorbable, Plastic And Reconstructive Surgery",328,328,60,18,36,0
+DXQ,random,Blood Pressure Cuff,309,309,60,18,36,0
+BZE,random,"Heater, Breathing System W/Wo Controller (Not Humidifier Or Nebulizer",2042,1992,54,18,33,2
+OXO,random,"Image-Intensified Fluoroscopic X-Ray System, Mobile",10903,3171,60,18,36,0
+KOD,random,"Catheter, Urological",13020,3961,60,18,30,1
+DWD,random,"Suction Control, Intracardiac, Cardiopulmonary Bypass",89,89,60,18,36,0
+LZG,random,"Pump, Infusion, Insulin",425740,4320,50,18,30,2
+CAK,random,"Microfilter, Blood Transfusion",1173,917,60,18,36,0
+NBC,random,"Test, Natriuretic Peptide",236,236,60,18,36,0
+NTE,random,Temporary Carotid Catheter For Embolic Capture,3080,2885,60,12,30,2
+PIO,random,Enteral Specific Transition Connectors,395,181,60,18,36,0
+MUJ,random,"System, Planning, Radiation Therapy Treatment",327,311,60,18,36,0
+KLE,random,"Agent, Tooth Bonding, Resin",541,445,60,18,36,0
+GCI,random,"Laryngoscope, Endoscope",1419,1419,60,18,36,0
+NCX,random,"System, Hypothermia, Intravenous, Cooling",4158,3400,60,18,36,0
+PFV,random,"System, Endovascular Graft, Arteriovenous (Av) Dialysis Access Circuit Stenosis Treatment",2561,2322,60,18,36,0
+NAW,random,Microspheres Radionuclide,524,524,60,18,36,0
+NKE,random,"Pulse Generator, Pacemaker, Implantable, With Cardiac Resynchronization (Crt-P)",11619,3975,60,12,30,3
+MTA,random,"Lens, Intraocular, Phakic",18625,4320,60,18,36,0
+NWX,random,"Catheter, Percutaneous Transluminal Coronary Angioplasty (Ptca), Cutting/Scoring",7060,3703,60,18,36,0
+FHW,random,"Device, Impotence, Mechanical/Hydraulic",27048,3107,60,18,36,0
+HHS,random,Transcervical Contraceptive Tubal Occlusion Device,72775,4315,60,18,36,0
+MFA,random,"Device, Removal, Pacemaker Electrode, Percutaneous",937,937,60,18,36,0
+MPV,random,"Implant, Hearing, Active, Middle Ear, Partially Implanted",808,808,60,18,36,0
+MUQ,random,"Glue, Surgical, Arteries",313,313,60,18,36,0
+NQO,random,"Prosthesis, Spinous Process Spacer/Plate",2360,1527,60,18,36,0
+NSA,random,Over-The-Counter Automated External Defibrillator,1276,948,60,18,36,0
+DYE,random,Replacement Heart-Valve,30483,4320,60,18,36,0
+MJO,random,"Prosthesis, Intervertebral Disc",4013,3161,60,18,36,0
+HSA,random,"Prosthesis, Knee, Hemi-, Femoral",34,34,60,18,36,0
+PFN,random,Implanted Brain Stimulator For Epilepsy,669,669,60,18,36,0
+NVY,random,Permanent Defibrillator Electrodes,107196,4320,60,18,36,1
+JDL,random,"Prosthesis, Hip, Semi-Constrained (Metal Cemented Acetabular Component)",2251,1846,60,18,36,0

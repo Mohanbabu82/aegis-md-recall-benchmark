@@ -1,0 +1,4 @@
+split,months,cases,positives,prevalence,codes,events_with_label_in_split,events_initiated_in_split,codes_missing
+train,2016-01..2020-12,6542,43,0.0066,110,10,9,
+val,2021-01..2022-06,1966,26,0.0132,110,5,4,
+test,2022-07..2025-06,3858,103,0.0267,110,22,18,
