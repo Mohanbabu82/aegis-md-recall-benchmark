@@ -10,7 +10,7 @@ authors:
     given-names: "Madhan"
     affiliation: "School of Computer Science and Engineering, Vellore Institute of Technology, Vellore, India"
     email: "madhan.es@vit.ac.in"
-version: "v1.0.0"
+version: "v1.0.1"
 date-released: "2026-11-25"
 license: MIT
 repository-code: "https://github.com/Mohanbabu82/aegis-md-recall-benchmark"
