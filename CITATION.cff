@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or code, please cite it as below."
+title: "AEGIS-MD: a leakage-controlled MAUDE-to-recall benchmark (code and results)"
+type: software
+authors:
+  - family-names: "A"
+    given-names: "Mohan Babu"
+    affiliation: "School of Computer Science and Engineering, Vellore Institute of Technology, Vellore, India"
+  - family-names: "E S"
+    given-names: "Madhan"
+    affiliation: "School of Computer Science and Engineering, Vellore Institute of Technology, Vellore, India"
+    email: "madhan.es@vit.ac.in"
+version: "v1.0.0"
+date-released: "2026-11-25"
+license: MIT
+repository-code: "https://github.com/Mohanbabu82/aegis-md-recall-benchmark"
+keywords:
+  - medical device
+  - MAUDE
+  - product recall
+  - pharmacovigilance
+  - benchmark
+abstract: "Leakage-controlled benchmark linking FDA MAUDE adverse event reports (openFDA) to later Class I medical device recalls, with count, disproportionality, recall-history, text and evidence-fusion baselines, the AEGIS evidence-gap retrieval policy, a random-panel analysis at realistic prevalence, and all Kaggle notebooks and results."

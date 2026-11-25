@@ -83,9 +83,20 @@ AEGIS_MOCK=1 AEGIS_OUT=$PWD AEGIS_DIR=$PWD PYTHONHASHSEED=0 python bulk_harness.
 - `cross-encoder/nli-deberta-v3-base`: whether each manufacturer investigation confirms or contradicts the reported problem
 - `Qwen/Qwen2.5-3B-Instruct`: optional explanations that cite the evidence they rest on (not evaluated in the reported run)
 
+## Revision analyses (v2, November 2026)
+
+| Notebook (`notebooks/kaggle_runs/`) | Script (`src/`) | What it does |
+| --- | --- | --- |
+| `AEGIS_revision_analyses.ipynb` | `nb6_revision.py` | Main panel: disproportionality (PRR, ROR, EBGM), recall-history and text baselines, paired product-code bootstrap for H1–H3, 3/12-month horizons, initial-reports and washout sensitivity analyses, validation ablations, per-event results, manual-labelling sheets |
+| `AEGIS_random_panel_data.ipynb` | `nb7_random_panel_data.py` | Draws 900 random product codes (seed 2026), keeps the 110 with ≥24 reports in 2014–2015, and builds their report sample |
+| `AEGIS_random_panel_eval.ipynb` | `nb8_setup.py` + `nb2_enrich` + `nb6_revision.py` | Runs the full revision analysis on the random panel (realistic prevalence) |
+| `AEGIS_revision_extras.ipynb` | `nb9_extras.py` | Calibration by decile, comparisons against Poisson CUSUM, alert workload and per-event ranks for both panels |
+
+Results are in `results/revision/`. `tools/score_labels.py` scores the blind manual-labelling sheets.
+
 ## Limitations
 
-- The panel is small (76 codes), so confidence intervals are wide.
+- The main panel is small (76 codes) and selected on the outcome; the random panel (110 codes) has only 22 test-period events.
 - Comparison codes were drawn from recalled devices, never from devices with no recall history.
 - Labels are per product code, not per manufacturer.
 - At most 60 reports are sampled per code-month.
@@ -93,7 +104,7 @@ AEGIS_MOCK=1 AEGIS_OUT=$PWD AEGIS_DIR=$PWD PYTHONHASHSEED=0 python bulk_harness.
 
 ## Citation
 
-Manuscript in preparation: *Predicting Class I Medical Device Recalls from MAUDE Adverse-Event Reports: A Leakage-Controlled Benchmark and an Evaluation of Evidence-Gap-Driven Retrieval.*
+Mohan Babu A, Madhan E S. *Do adverse event narratives anticipate Class I medical device recalls? A leakage-controlled MAUDE benchmark.* Manuscript submitted to JAMIA. Please cite the archived release (Zenodo DOI on the repository page).
 
 ## License
 
